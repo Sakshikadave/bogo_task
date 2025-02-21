@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BOGO Task</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">YAY! It's BOGO</div>
+
+      <div class="units-option" onclick="selectOption(1)">
+        <span class="discountbage">10% Off</span>
+        1 Unit
+        <span class="price">$10.00 USD</span>
+      </div>
+
+      <div class="units-option selected" onclick="selectOption(2)">
+        <div class="mostpopular">MOST POPULAR</div>
+        <span class="discountbage">20% Off</span>
+        2 Unit
+        <span class="price">$18.00 USD</span>
+        <div class="options">
+          <div>
+            <select>
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+          </div>
+          <div>
+            <select>
+              <option>Black</option>
+              <option>White</option>
+              <option>Blue</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="units-option" onclick="selectOption(3)">
+        <span class="discountbage">30% Off</span>
+        3 Unit
+        <span class="price">$24.00 USD</span>
+      </div>
+
+      <span class="freedelivery" style="margin-top: 8px">Free Delivery</span>
+
+      <div class="total">Total: $18.00 USD</div>
+
+      <button class="add-to-cart" onclick="addtocart()">Add to Cart</button>
+    </div>
+  </body>
+</html>
